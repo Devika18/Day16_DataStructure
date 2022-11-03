@@ -9,35 +9,22 @@ the rear of the deque.
 d. O/P -> True or False to Show if the String is Palindrome or not.
 */
 
-import java.util.Scanner;
-import LinkedList.Deque;
-
 public class PalindromeChecker {
 
 
+    public static boolean isPalindrome(String a) {
+        StringBuilder stringBuilder = new StringBuilder(a);
+        stringBuilder.reverse();
+        String data = stringBuilder.toString();
+        if (a.equals(data)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     public static void main(String[] args) {
-
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter string to check palindrome or not");
-    	String str = scanner.next();
-        //String str = "madam";
-        String revFront = "";
-        Deque deque = new Deque(str.length());
-
-        for (int i = 0; i < str.length(); i++) {
-            deque.insertFront(str.charAt(i));
-        }
-        for (int i = 0; i < str.length(); i++) {
-            revFront += deque.getFront();
-            deque.deleteFront();
-        }
-
-        if(revFront.equals(str)) {
-            System.out.println("String is palindrome");
-        }else {
-            System.out.println("String is not palindrome");
-        }
-        scanner.close();
-
+        String a = "madam";
+        System.out.println(PalindromeChecker.isPalindrome(a));
     }
 }

@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b279efd-c289-44a6-bfc8-5f7d4612e981" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure_Programs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BalancedParanthesis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BankCashCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Calender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CustomizedMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hashing/HashNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hashing/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hashing/MapMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Deque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/INode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/MyNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/SortedLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OrderedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PalindromeChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prime2DArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnOrderedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utility/ArraysUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrimeAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PalindromeChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PalindromeChecker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +37,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PalindromeChecker">
+  <component name="RunManager" selected="Application.Prime2DArray">
     <configuration name="Calender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Calender" />
       <module name="DataStructure_Programs" />
@@ -70,19 +48,6 @@
     <configuration name="CustomizedMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CustomizedMessage" />
       <module name="DataStructure_Programs" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hashing.MapMain" />
-      <module name="DataStructure_Programs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Hashing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,13 +66,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrimeAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimeAnagram" />
+      <module name="DataStructure_Programs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Prime2DArray" />
+        <item itemvalue="Application.PrimeAnagram" />
         <item itemvalue="Application.PalindromeChecker" />
         <item itemvalue="Application.Calender" />
-        <item itemvalue="Application.Prime2DArray" />
         <item itemvalue="Application.CustomizedMessage" />
-        <item itemvalue="Application.MapMain" />
       </list>
     </recent_temporary>
   </component>
